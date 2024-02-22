@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+@font-face {
+    font-family: "CloisterBlack";
+    src: url(/fonts/CloisterBlack.ttf) format("truetype");
+}
+header {
+    background-color: #787878;
+    width: 1920px;
+    height: 208px;
+}
+.logo {
+    width: 109px;
+    height: 112px;
+}
+.leftlogo {
+    width: 371px;
+    height: 161px;
+    margin-left: 253px;
+}
+.title {
+    font-family: "CloisterBlack";
+    font-weight: normal;
+    width: 495px;
+    height: 75px;
+    font-size: 64px;
+}
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 150px;
+    max-width: 500px;
+    max-height: 300px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+    height: 94vh;
+}
+
+#frame {
+    overflow: hidden;
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#slider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: 1s ease-in-out;
+}
+
+.slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.arrow {
+    width: 120px;
+    height: 120px;
+}
+
+.arrow-right {
+    transform: rotate(180deg);
+}
+
+.pagination-circle {
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.active {
+    background-color: rgb(255, 0, 0);
+}
+
+#bottom {
+    display: flex;
+    column-gap: 44px;
+}
+.goods {
+    width: 1920px;
+    height: 250px;
+    justify-content: center;
+    display: flex;
+    gap: 150px;
+}
+.good {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #787878;
+}
+.name {
+    font-family: "CloisterBlack";
+    font-weight: normal;
+}
+.price {
+    font-family: "CloisterBlack";
+    font-weight: normal;
+}
+.choose {
+    font-family: "CloisterBlack";
+    font-weight: normal;
+}
+.wrapper-sections {
+    width: 1920px;
+    height: 500px;
+    background-image: url(/src/wrapper.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.title-sections {
+    font-family: "CloisterBlack";
+    font-weight: normal;
+    font-size: 50px;
+}
+.map {
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 30px;
+    text-decoration: none;
+    color: #FF0000;
+    display: flex;
+    flex-direction: row-reverse
+}
+.footer {
+    width: 1920px;
+    height: 500px;
+    background-color: #030303;
+}
